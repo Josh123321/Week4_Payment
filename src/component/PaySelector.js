@@ -7,6 +7,9 @@ import { ReactComponent as IcStore } from '../style/images/icon_store.svg';
 import { ReactComponent as IcLinePay } from '../style/images/line_pay.svg';
 import { ReactComponent as IcAtm } from '../style/images/icon_atm.svg';
 import { ReactComponent as IcCard } from '../style/images/icon_card.svg';
+import { ReactComponent as IcNotice } from '../style/images/icon_notice.svg';
+
+import moduleName from 'module';
 import UnionPay from '../style/images/unionpay.png';
 
 const PaymentBoxWrapper = styled.div.attrs({ className: 'col-md-6 col-12' })`    
@@ -76,12 +79,16 @@ const Check = ({selected}) => {
     )
 }
 
+const NoticeWrapper = styled.div.attrs({className:'d-none d-sm-block'})`
+    position: absolute;
+    right: 13.5vw;
+    bottom: -15vh;
+    z-index: -1;
+`;
+
 const Highlight = styled.span`
     color:#4BC9C9;
-`;
-    
-
-
+`; 
 
 const paymentWay = [
     { iconNum: 1, payDes1: '超商取貨 付款', payDes2: '24隔日取貨說明' },
@@ -118,7 +125,10 @@ const PaySelector = ({ paymentSelect }) => {
                 <p>・每筆訂單所提供的「ATM專屬虛擬帳號」皆不同，若您欲使用本項服務，敬請放心進行匯款作業，安全又便利！ </p>
                 <p>・若訂單內含預購、無庫存商品調貨時間請參考「商品平均調貨時間」。 ・若您對取貨或付款的方式有疑問，請詳閱<Highlight>「購買說明」</Highlight>。 </p>
                 <p>・請確認您已詳閱並瞭解本站<Highlight>「購買說明」</Highlight>內容，訂單完成即表示您已同意其中的各項說明。</p>
+                <NoticeWrapper><IcNotice /></NoticeWrapper>
             </RuleSection>
+
+
         </>
     )
 }

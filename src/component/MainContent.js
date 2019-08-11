@@ -5,6 +5,7 @@ import PaySelector from './PaySelector';
 const MainWrapper = styled.div.attrs({
     className: 'main-wrapper'
 })`
+    position:relative;
     width:100%;
     height: 70vh;
     overflow-y:scroll;
