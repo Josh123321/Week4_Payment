@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Week4_payment/static/css/main.56c1bd40.chunk.css",
+    "main.js": "/Week4_payment/static/js/main.ac6e2ddd.chunk.js",
+    "main.js.map": "/Week4_payment/static/js/main.ac6e2ddd.chunk.js.map",
+    "runtime~main.js": "/Week4_payment/static/js/runtime~main.87ed117a.js",
+    "runtime~main.js.map": "/Week4_payment/static/js/runtime~main.87ed117a.js.map",
+    "static/css/2.266e55a5.chunk.css": "/Week4_payment/static/css/2.266e55a5.chunk.css",
+    "static/js/2.5c180a28.chunk.js": "/Week4_payment/static/js/2.5c180a28.chunk.js",
+    "static/js/2.5c180a28.chunk.js.map": "/Week4_payment/static/js/2.5c180a28.chunk.js.map",
+    "index.html": "/Week4_payment/index.html",
+    "precache-manifest.270a6d955b030dab3c4e785aeeb9af6b.js": "/Week4_payment/precache-manifest.270a6d955b030dab3c4e785aeeb9af6b.js",
+    "service-worker.js": "/Week4_payment/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/Week4_payment/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.56c1bd40.chunk.css.map": "/Week4_payment/static/css/main.56c1bd40.chunk.css.map",
+    "static/media/icon_arrow_right.dc09e2e2.svg": "/Week4_payment/static/media/icon_arrow_right.dc09e2e2.svg",
+    "static/media/icon_atm.4de835ed.svg": "/Week4_payment/static/media/icon_atm.4de835ed.svg",
+    "static/media/icon_card.f20b133e.svg": "/Week4_payment/static/media/icon_card.f20b133e.svg",
+    "static/media/icon_confirm.2e35ffda.svg": "/Week4_payment/static/media/icon_confirm.2e35ffda.svg",
+    "static/media/icon_confirm_normal.9a3b2d96.svg": "/Week4_payment/static/media/icon_confirm_normal.9a3b2d96.svg",
+    "static/media/icon_notice.b2071eb0.svg": "/Week4_payment/static/media/icon_notice.b2071eb0.svg",
+    "static/media/icon_step2.1bc3ee17.svg": "/Week4_payment/static/media/icon_step2.1bc3ee17.svg",
+    "static/media/icon_step3.2b60e60b.svg": "/Week4_payment/static/media/icon_step3.2b60e60b.svg",
+    "static/media/icon_step3_active.3a4a0ec2.svg": "/Week4_payment/static/media/icon_step3_active.3a4a0ec2.svg",
+    "static/media/icon_step_done.f3709b1f.svg": "/Week4_payment/static/media/icon_step_done.f3709b1f.svg",
+    "static/media/icon_store.c84e776b.svg": "/Week4_payment/static/media/icon_store.c84e776b.svg",
+    "static/media/line_pay.f6e877e3.svg": "/Week4_payment/static/media/line_pay.f6e877e3.svg",
+    "static/media/logo.4cd422d7.svg": "/Week4_payment/static/media/logo.4cd422d7.svg",
+    "static/media/unionpay.png": "/Week4_payment/static/media/unionpay.1f53e6c7.png"
+  }
+}
